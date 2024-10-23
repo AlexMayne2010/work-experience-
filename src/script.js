@@ -1,5 +1,4 @@
 function addItemToBasket(id) {
-    clearBasketItem();
 
     $('.in-basket').hide();
     $('.active').removeClass('active');
@@ -10,6 +9,7 @@ function addItemToBasket(id) {
 
     $('.basket-item-name').text($(`#${id} .description`).text());
     $('.basket-item-price').text($(`#${id} .price`).text());
+
 
     $('.basket-empty').hide();
     $('.checkout-details').show();
@@ -34,3 +34,4 @@ function clearBasketItem() {
     $('.basket-item-name').text('');
     $('.basket-item-price').text('');
 }
+

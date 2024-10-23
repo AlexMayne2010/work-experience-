@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <title>Wheatly</title>
     <link rel="stylesheet" href="./style.css">
+    <script>(function(n,t,i,r){var u,f;n[i]=n[i]||{},n[i].initial={accountCode:"CMPNY32646",host:"CMPNY32646.pcapredict.com"},n[i].on=n[i].on||function(){(n[i].onq=n[i].onq||[]).push(arguments)},u=t.createElement("script"),u.async=!0,u.src=r,f=t.getElementsByTagName("script")[0],f.parentNode.insertBefore(u,f)})(window,document,"pca","//CMPNY32646.pcapredict.com/js/sensor.js")</script>
     <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon"> -->
   </head>
   <body>
     <header class="main-header">
+    
         <div class="centered">
             <div class="header-branding">
-                <h1>My Shop</h1>
+                <img src="./images/Wheatly.png" alt="Wheatly Logo" width="10%" height="10%"> 
+                <h1>Wheatly</h1>
                 <nav class="nav">
                     <a href="">About</a>
                     <a href="">Contact</a>
@@ -23,19 +26,19 @@
     </header>
     <main class="centered">
         <section>
-            <h2>Products</h2>
+            <h2>Menu</h2>
             <div class="product-list cards">
                 <article class="card" id="product-1">
                     <header>
-                        <h2>Sony</h2>
+                        <h2>Cappuccino</h2>
                     </header>    
-                    <img src="./images/headphones-sony.jpg" alt="Sony headphones">
+                    <img src="./images/Cappucino.jpg" alt="Cappucino">
                     <div class="content">
-                        <p class="description">Black Sony headphones</p>
+                        <p class="description">Capuccino</p>
                     </div>
                     <footer>
                         <div class="basket-action add-to-basket">
-                            <span class="price">£250.00</span>
+                            <span class="price">£4.50</span>
                             <button class="button" onclick="addItemToBasket('product-1')">Buy</button>
                         </div>
                         <div class="basket-action in-basket">
@@ -47,15 +50,15 @@
 
                 <article class="card" id="product-2">
                     <header>
-                        <h2>Beats</h2>
+                        <h2>Latte</h2>
                     </header>    
-                    <img src="./images/headphones-beats.jpg" alt="Beats headphones">
+                    <img src="./images/Latte.jpg" alt="Latte">
                     <div class="content">
-                        <p class="description">Red Beats headphones</p>
+                        <p class="description">Latte</p>
                     </div>
                     <footer>
                         <div class="basket-action add-to-basket">
-                            <span class="price">£200.00</span>
+                            <span class="price">£4.25</span>
                             <button class="button" onclick="addItemToBasket('product-2')">Buy</button>
                         </div>
                         <div class="basket-action in-basket">
@@ -67,20 +70,185 @@
 
                 <article class="card" id="product-3">
                     <header>
-                        <h2>Skullcandy</h2>
+                        <h2>Espresso</h2>
                     </header>    
-                    <img src="./images/headphones-skullcandy.jpg" alt="Skullcandy headphones">
+                    <img src="./images/Espresso.jpg" alt="Espresso">
                     <div class="content">
-                        <p class="description">Black Skullcandy headphones</p>
+                        <p class="description">Espresso</p>
                     </div>
                     <footer>
                         <div class="basket-action add-to-basket">
-                            <span class="price">£100.00</span>
+                            <span class="price">£3.50</span>
                         <button class="button" onclick="addItemToBasket('product-3')">Buy</button>
                         </div>
                         <div class="basket-action in-basket">
                             <span class="status">In basket</span>
                             <button class="button" onclick="removeItemFromBasket('product-3')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-4">
+                    <header>
+                        <h2>Toast</h2>
+                    </header>    
+                    <img src="./images/Toast.jpg" alt="Toast">
+                    <div class="content">
+                        <p class="description">Toast</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£2.00</span>
+                            <button class="button" onclick="addItemToBasket('product-4')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-4')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-5">
+                    <header>
+                        <h2>Cake</h2>
+                    </header>    
+                    <img src="./images/Cake.jpg" alt="Cake">
+                    <div class="content">
+                        <p class="description">Cake</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£5.25</span>
+                            <button class="button" onclick="addItemToBasket('product-5')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-5')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-6">
+                    <header>
+                        <h2>All day english breakfast</h2>
+                    </header>    
+                    <img src="./images/All day english breakfast.jpg" alt="All day english breakfast">
+                    <div class="content">
+                        <p class="description">All day english breakfast</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£10.00</span>
+                            <button class="button" onclick="addItemToBasket('product-6')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-6')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-7">
+                    <header>
+                        <h2>Iced tea</h2>
+                    </header>    
+                    <img src="./images/Iced tea.jpg" alt="Iced tea">
+                    <div class="content">
+                        <p class="description">Iced tea</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£4.50</span>
+                            <button class="button" onclick="addItemToBasket('product-7')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-7')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-8">
+                    <header>
+                        <h2>Frappuchino</h2>
+                    </header>    
+                    <img src="./images/Frappuchino.jpg" alt="Frappuchino">
+                    <div class="content">
+                        <p class="description">Frappuchino</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£4.75</span>
+                            <button class="button" onclick="addItemToBasket('product-8')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-8')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-9">
+                    <header>
+                        <h2>Seeded bread</h2>
+                    </header>    
+                    <img src="./images/Seeded bread.jpg" alt="Seeded bread">
+                    <div class="content">
+                        <p class="description">Seeded bread</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£5.00</span>
+                            <button class="button" onclick="addItemToBasket('product-9')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-9')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <p><h1>Merchandise</h1></p>
+                <br>
+            </div>
+                
+                
+                <article class="card" id="product-11">
+                    <header>
+                        <h2>Wheatly Mug</h2>
+                    </header>    
+                    <img src="./images/Wheatly Mug.png" alt="Wheatly mug">
+                    <div class="content">
+                        <p class="description">Wheatly mug</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£8.00</span>
+                            <button class="button" onclick="addItemToBasket('product-11')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-11')">Remove</button>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="card" id="product-12">
+                    <header>
+                        <h2>Wheatly Bag</h2>
+                    </header>    
+                    <img src="./images/Wheatly Bag.png" alt="Wheatly Bag">
+                    <div class="content">
+                        <p class="description">Wheatly Bag</p>
+                    </div>
+                    <footer>
+                        <div class="basket-action add-to-basket">
+                            <span class="price">£7.00</span>
+                            <button class="button" onclick="addItemToBasket('product-12')">Buy</button>
+                        </div>
+                        <div class="basket-action in-basket">
+                            <span class="status">In basket</span>
+                            <button class="button" onclick="removeItemFromBasket('product-12')">Remove</button>
                         </div>
                     </footer>
                 </article>
@@ -96,7 +264,11 @@
                 </p>
 
                 <div class="checkout-form">
-                    Enter your shipping address
+                   <h4>Enter your shipping address</h4>
+                   <label id="addresslabel"></label> 
+                   <br>
+                   <input type="text"id="addressinput"name="addressinput">
+
                 </div>
             </div>
         </section>
