@@ -35,3 +35,4 @@ function clearBasketItem() {
     $('.basket-item-price').text('');
 }
 
+
